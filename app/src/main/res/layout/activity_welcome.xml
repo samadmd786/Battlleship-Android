@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/team_18_battleship"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/welcomeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@id/textView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-5dp"
+        app:srcCompat="@drawable/battleship_welcome" />
+
+    <FrameLayout
+        android:id="@+id/centerHPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_alignTop="@id/inputLayout1"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true">
+
+    </FrameLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonCreateNew"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@id/centerHPoint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:hint="@string/username"
+            android:minHeight="48dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonCreateNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:onClick="onClick"
+        android:text="@string/create_new"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:backgroundTint="#009688"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="2dp"
+        android:onClick="onClick"
+        android:text="@string/log_in"
+        android:textSize="12sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/login_button"
+        android:layout_alignStart="@id/centerHPoint"
+        android:layout_alignParentEnd="false"
+        android:layout_marginEnd="5dp"
+        android:gravity="bottom">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:hint="@string/password"
+            android:minHeight="48dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/rememberCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_toStartOf="@id/buttonCreateNew"
+        android:layout_toEndOf="@id/login_button"
+        android:text="@string/remember" />
+
+</RelativeLayout>

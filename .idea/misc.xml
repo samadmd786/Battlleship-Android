@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/476Projects/battleship-proj2/app/src/main/res/layout/activity_result.xml" value="0.6" />
+        <entry key="..\:/476Projects/battleship/app/src/main/res/layout-land/activity_main.xml" value="0.21516754850088182" />
+        <entry key="..\:/476Projects/battleship/app/src/main/res/layout/activity_battleship.xml" value="0.264" />
+        <entry key="..\:/476Projects/battleship/app/src/main/res/layout/activity_help.xml" value="0.25416666666666665" />
+        <entry key="..\:/476Projects/battleship/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/476Projects/battleship/app/src/main/res/layout/activity_welcome.xml" value="0.264" />
+        <entry key="..\:/476Projects/battleship/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />
+        <entry key="..\:/476Projects/battleship/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2703125" />
+        <entry key="..\:/Users/Daniel Lee/AndroidStudioProjects/battleship/app/src/main/res/layout-land/welcome_activity.xml" value="0.27998236331569665" />
+        <entry key="..\:/Users/Daniel Lee/AndroidStudioProjects/battleship/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Daniel Lee/AndroidStudioProjects/battleship/app/src/main/res/layout/activity_welcome.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/Daniel Lee/AndroidStudioProjects/battleship/app/src/main/res/layout/sample_grid_view.xml" value="0.45108695652173914" />
+        <entry key="..\:/Users/Daniel Lee/AndroidStudioProjects/battleship/app/src/main/res/layout/welcome_activity.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/Noah/Documents/476/battleship/app/src/main/res/layout-land/activity_main.xml" value="0.2390625" />
+        <entry key="..\:/Users/Noah/Documents/476/battleship/app/src/main/res/layout-land/activity_welcome.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/Noah/Documents/476/battleship/app/src/main/res/layout-land/welcome_activity.xml" value="0.2390625" />
+        <entry key="..\:/Users/Noah/Documents/476/battleship/app/src/main/res/layout/activity_main.xml" value="0.2758152173913043" />
+        <entry key="..\:/Users/Noah/Documents/476/battleship/app/src/main/res/layout/activity_welcome.xml" value="0.2758152173913043" />
+        <entry key="..\:/Users/Noah/Documents/476/battleship/app/src/main/res/layout/welcome_activity.xml" value="0.2758152173913043" />
+        <entry key="..\:/Users/Noah/Documents/476/master_last/app/src/main/res/layout-land/activity_help.xml" value="0.303125" />
+        <entry key="..\:/Users/Noah/Documents/476/master_last/app/src/main/res/layout-land/activity_result.xml" value="0.303125" />
+        <entry key="..\:/Users/Noah/Documents/476/master_last/app/src/main/res/layout/activity_help.xml" value="0.26358695652173914" />
+        <entry key="..\:/Users/Noah/Documents/476/master_last/app/src/main/res/layout/activity_result.xml" value="0.26358695652173914" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout-land/activity_create_new.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout-land/activity_help.xml" value="0.1" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout-land/activity_main.xml" value="0.15211640211640212" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout-land/activity_wait.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout-land/activity_welcome.xml" value="0.1" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout/about_dlg.xml" value="0.11367753623188406" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout/active_games.xml" value="0.22" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout/activity_battleship.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout/activity_create_new.xml" value="0.22" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout/activity_help.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout/activity_main.xml" value="0.10666666666666667" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout/activity_result.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout/activity_wait.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout/activity_welcome.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout/activityhelp.xml" value="0.1" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout/catalog_dlg.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/hello/Desktop/STUDY/CSE476/battleship/app/src/main/res/layout/catalog_item.xml" value="0.12409420289855072" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/GameRules"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:text="@string/game_rules"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/firstThreeRules"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rules"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/ruleFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ruleFourToSix"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/ruleFiveRules"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ruleFive"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/ruleSixRules"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rulesix"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/ruleSeven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ruleSeven"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/main_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="5dp"
+                android:gravity="center_horizontal"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:onClick="onMainMenu"
+                android:text="@string/main_menu" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
